@@ -33,6 +33,7 @@ header{
     width: 164px;
     height: 44px;
     background-color: #469165;
+    border-radius: 3px;
     border: none;
     color: #ffff;
     padding: 12px 16px;
@@ -97,4 +98,62 @@ header{
     border-radius: 3px;
     height: 52px;
     color: #ffffff;
+}
+.main-card-section{
+    max-width: 100%;
+    max-height: 448px;
+    padding: 50px 120px 120px 120px;
+}
+.main-card-section .card-header{
+    width: 1360px;
+    padding-bottom: 44px;
+    text-align: center;
+}
+.main-card-section .card-header h2{
+    font-size: 48px;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.main-card-section .card-header p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+    margin-bottom: 44px;
+    line-height: 20px;
+}
+.main-card-section .all-card .card div img {
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px;
+}
+.main-card-section .all-card {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+.main-card-section .all-card .card{
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+}
+.main-card-section .all-card .card-icon,h3{
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #001931;
+}
+.main-card-section .all-card p{
+    font-size: 16px;
+    color: #627382;
+    justify-content: space-around;
 }
