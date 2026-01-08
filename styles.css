@@ -1,11 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: inter;
 }
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+header{
+    height: 92px;
 }
 .navbar{
     padding: 16px 120px;
@@ -14,7 +18,6 @@
     align-items: center;
     background-color: #ffff;
     align-items: center;
-    font-family: Open saga;
 }
 .nav-list{
     list-style: none;
@@ -60,4 +63,38 @@
 }
 .hero-container h1{
     margin-top: 16px;
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.hero-container span{
+    color: #30B868;
+}
+.hero-container p{
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.hero-section .hero-container .hero-section-button .hero-btn-1{
+    width: 251px;
+    border-radius: 3px;
+    height: 52px;
+    background-color: #469165;
+    border: none;
+    color: #ffffff;
+}
+.hero-section .hero-container .hero-section-button{
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+    padding: 12px 16px;
+}
+.hero-section .hero-container .hero-section-button .hero-btn-2{
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 198px;
+    border-radius: 3px;
+    height: 52px;
+    color: #ffffff;
 }
