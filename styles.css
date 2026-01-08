@@ -143,7 +143,8 @@ header{
     background-color: #ffffff;
     align-items: center;
     text-align: center;
-    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
 }
 .main-card-section .all-card .card-icon,h3{
     padding-bottom: 16px;
@@ -156,4 +157,47 @@ header{
     font-size: 16px;
     color: #627382;
     justify-content: space-around;
+}
+.the-solution-section{
+    display: flex;
+    gap: 60px;
+    align-items: left;
+    width: 1360px;
+    height: 600px;
+    padding: 120px;
+    background-color: #ffffff;
+}
+.the-solution-section .solution-container{
+    width: 600px;
+    height: 397px;
+    padding: 101.5px 100px 101.5px;
+}
+.the-solution-section .solution-container h5 {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.the-solution-section .solution-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.the-solution-section .solution-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.the-solution-section .solution-container ul li{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    list-style: none;
+}
+.the-solution-section .solution-image {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
 }
