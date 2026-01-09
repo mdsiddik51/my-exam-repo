@@ -9,6 +9,7 @@
   font-optical-sizing: auto;
 }
 header{
+    width: 100%;
     height: 92px;
 }
 .navbar{
@@ -63,6 +64,18 @@ header{
     display: inline;
     color: #469165;
 }
+.hero-section .hero-container .access:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    border: 1px solid #30B868;
+    cursor: pointer;
+}
+.hero-section .hero-container .access a{
+    text-decoration: none;
+    color: #469165;
+}
+
 .hero-container h1{
     margin-top: 16px;
     font-size: 72px;
@@ -76,6 +89,7 @@ header{
 .hero-container p{
     line-height: 24px;
     margin-bottom: 32px;
+    color: #ffffff;
 }
 .hero-section .hero-container .hero-section-button .hero-btn-1{
     width: 251px;
@@ -199,6 +213,15 @@ header{
     margin-bottom: 16px;
     list-style: none;
 }
+.the-solution-section .solution-container ul li i{
+    color: #ffffff;
+    width: 16.25px;
+    height: 16.25px;
+    background-color: #30B868;
+    border-radius: 60px;
+    padding: 2px;
+    margin-right: 4px;
+}
 .the-solution-section .solution-image {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
 }
@@ -265,3 +288,25 @@ hr{
     text-align: center;
     color: #FAFAFAFA;
 }
+
+.hero-section .hero-container .hero-section-button button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    border: 1px solid #30B868;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    border: 1px solid #30B868;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    color:#30B868;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
